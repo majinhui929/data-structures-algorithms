@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.iocoder.cloud</groupId>
+  <artifactId>yudao-spring-boot-starter-mybatis</artifactId>
+  <version>2.3.0-jdk8-SNAPSHOT</version>
+  <name>yudao-spring-boot-starter-mybatis</name>
+  <description>数据库连接池、多数据源、事务、MyBatis 拓展</description>
+  <url>https://github.com/YunaiV/ruoyi-vue-pro/yudao-spring-boot-starter-mybatis</url>
+  <dependencies>
+    <dependency>
+      <groupId>cn.iocoder.cloud</groupId>
+      <artifactId>yudao-common</artifactId>
+      <version>2.3.0-jdk8-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>druid-spring-boot-starter</artifactId>
+      <version>1.2.23</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.baomidou</groupId>
+      <artifactId>mybatis-plus-boot-starter</artifactId>
+      <version>3.5.7</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>huaweicloud</id>
+      <name>huawei</name>
+      <url>https://mirrors.huaweicloud.com/repository/maven/</url>
+    </repository>
+    <repository>
+      <id>aliyunmaven</id>
+      <name>aliyun</name>
+      <url>https://maven.aliyun.com/repository/public</url>
+    </repository>
+  </repositories>
+</project>

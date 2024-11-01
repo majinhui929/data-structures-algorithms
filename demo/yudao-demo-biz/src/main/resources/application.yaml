@@ -1,0 +1,8 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: yudao-demo-biz
+  profiles:
+    active: local
+

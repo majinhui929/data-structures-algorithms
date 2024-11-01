@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.iocoder.cloud</groupId>
+  <artifactId>yudao-demo-api</artifactId>
+  <version>2.3.0-jdk8-SNAPSHOT</version>
+  <name>yudao-demo-api</name>
+  <description>yudao-demo-api</description>
+  <url>https://github.com/YunaiV/ruoyi-vue-pro/demo/yudao-demo-api</url>
+  <dependencies>
+    <dependency>
+      <groupId>cn.iocoder.cloud</groupId>
+      <artifactId>yudao-common</artifactId>
+      <version>2.3.0-jdk8-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>huaweicloud</id>
+      <name>huawei</name>
+      <url>https://mirrors.huaweicloud.com/repository/maven/</url>
+    </repository>
+    <repository>
+      <id>aliyunmaven</id>
+      <name>aliyun</name>
+      <url>https://maven.aliyun.com/repository/public</url>
+    </repository>
+  </repositories>
+</project>

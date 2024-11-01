@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: cn.iocoder.cloud.yudaocommon.YudaoCommonApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.145 s <<< FAILURE! - in cn.iocoder.cloud.yudaocommon.YudaoCommonApplicationTests
+cn.iocoder.cloud.yudaocommon.YudaoCommonApplicationTests  Time elapsed: 0.145 s  <<< ERROR!
+java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+
